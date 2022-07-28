@@ -1,0 +1,50 @@
+{
+  "name": "bookstorebe",
+  "version": "1.0.0",
+  "description": "RESTful API for BookStore",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "nodemon --inspect=6000 app.js",
+    "lint-init": "eslint --init",
+    "lint": "eslint \"./**/*.js\" --quiet",
+    "lintFull": "eslint \"./**/*.js\"",
+    "lintFix": "eslint --fix './**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokien/BookStoreBE.git"
+  },
+  "keywords": [
+    "BookStoreBE"
+  ],
+  "author": "VietIS-Intern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dokien/BookStoreBE/issues"
+  },
+  "homepage": "https://github.com/dokien/BookStoreBE#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonschema": "^1.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.7.1"
+  }
+}
