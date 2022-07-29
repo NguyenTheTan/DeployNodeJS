@@ -41,8 +41,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-images/books/*
-images/avatars/*
+# images/books/*
+# images/avatars/*
 
 # TypeScript v1 declaration files
 typings/
