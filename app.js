@@ -54,9 +54,9 @@ app.use('/', billRouter);
 app.use('/', ratingRouter);
 app.use('/', shipInfoRouter);
 app.use('/', userTypeRouter);
-const PORT = process.env.PORT || 8686;
-app.listen(PORT, (err) => {
+const port = process.env.PORT || 8686;
+app.listen(port, (err) => {
   if (err) throw err;
   // eslint-disable-next-line no-console
-  console.log(`Server running on port: ${PORT}`);
+  console.log(`Server running on port: ${port}`);
 });
